@@ -1,0 +1,50 @@
+/* ========================================================================== *\
+   Helpers
+\* ========================================================================== */
+
+.hide, .hidden {
+  @include hidden;
+}
+
+.clearfix, .cf {
+  @include clearfix;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.wp-caption {
+  background-color: #fff;
+  @include box-shadow(0 0 5px 1px $color-shadow);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.wp-caption-text {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.gallery-caption {
+  font-size: 12px;
+}
+
+.sticky {
+  background-color: #eee;
+}
+
+.bypostauthor {
+  background-color: #ddd;
+}

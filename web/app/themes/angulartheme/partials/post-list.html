@@ -1,0 +1,11 @@
+<div ng-controller="appcontroller">
+  <ul>
+    <li ng-repeat="post in postdata">
+      <h1>
+        <a href="#/{{post.ID}}">
+          {{post.post_title}}
+        </a>
+      </h1>
+    </li>
+  </ul>
+</div>

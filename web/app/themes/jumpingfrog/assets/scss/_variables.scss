@@ -1,0 +1,71 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+//
+// Background Color
+// --------------------------------------------------------------------------
+
+$bgcolor-body: #eee;
+$bgcolor-header: #ddd;
+$bgcolor-footer: #ddd;
+
+//
+// Color
+// --------------------------------------------------------------------------
+
+$color-base: #333;
+$color-link: #888;
+$color-link-hover: #aaa;
+
+$color-menu: #000;
+$color-menu-hover: #444;
+$color-menu-active: #888;
+
+$color-shadow: rgba(0, 0, 0, 0.25);
+
+//
+// Font Family
+// --------------------------------------------------------------------------
+
+$font-base: Arial, sans-serif;
+$font-titles: 'Helvetica', Arial, sans-serif;
+
+//
+// Font Size
+// --------------------------------------------------------------------------
+
+$fontsize-base: 13px;
+$fontsize-h1: 24px;
+$fontsize-h2: 22px;
+$fontsize-h3: 20px;
+$fontsize-h4: 18px;
+$fontsize-h5: 16px;
+$fontsize-h6: 14px;
+
+//
+// Line Height
+// --------------------------------------------------------------------------
+
+$lineheight-base: 1.50;
+
+//
+// Padding
+// --------------------------------------------------------------------------
+
+$padding-base: 15px; // Used for bottom padding on P and H1-h6 elements
+
+//
+// Width
+// --------------------------------------------------------------------------
+
+$maxwidth-container: 1200px;
+
+//
+// Height
+// --------------------------------------------------------------------------
+
+$height-footer: 180px;
+$height-footer-480: 180px;
+$height-footer-768: 180px;
+$height-footer-960: 180px;

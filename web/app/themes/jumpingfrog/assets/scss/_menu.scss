@@ -1,0 +1,24 @@
+/* ========================================================================== *\
+   Menu
+\* ========================================================================== */
+
+.nav-main {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {   
+    color: $color-menu;
+
+    &:hover, &:focus, &:active {
+      color: $color-menu-hover;
+    }
+  }
+
+  &.active {
+    a {
+      color: $color-menu-active;
+    }
+  }
+}

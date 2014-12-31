@@ -1,0 +1,108 @@
+/* ========================================================================== *\
+   Base
+\* ========================================================================== */
+
+body {
+  background-color: $bgcolor-body;
+  color: $color-base;
+  font-family: $font-base;
+  font-size: $fontsize-base;
+  line-height: $lineheight-base;
+  min-width: 320px;
+  // Force vertical scrollbar to avoid jumping if navigating from short to long page and vice versa
+  overflow-y: scroll;
+}
+
+.container {
+  width: 90%;
+  margin: 0 5%;
+
+  .main > & {
+    padding: 30px 0;
+  }
+}
+
+//
+// Typograpy
+// --------------------------------------------------------------------------
+
+p {
+  padding-bottom: $padding-base;
+}
+
+//
+// Headings
+// --------------------------------------------------------------------------
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: $font-titles;
+  padding-bottom: $padding-base;
+}
+
+h1, .h1 {
+  font-size: $fontsize-h1;
+}
+
+h2, .h2 {
+  font-size: $fontsize-h2;
+}
+
+h3, .h3 {
+  font-size: $fontsize-h3;
+}
+
+h4, .h4 {
+  font-size: $fontsize-h4;
+}
+
+h5, .h5 {
+  font-size: $fontsize-h5;
+}
+
+h6, .h6 {
+  font-size: $fontsize-h6;
+}
+
+//
+// Links
+// --------------------------------------------------------------------------
+
+a {
+  color: $color-link;
+  @include transition( color 0.25s ease );
+
+  &:hover, &:focus, &:active {
+    color: $color-link-hover;
+  }
+}
+
+//
+// Sticky Footer [by Steve Hatcher | http://www.cssstickyfooter.com]
+// --------------------------------------------------------------------------
+
+* { margin:0; padding:0; } 
+
+html, body { height: 100% }
+
+.wrap { min-height: 100%; }
+
+.main {
+  overflow:auto;
+  padding-bottom: $height-footer; /* must be same height as the footer */
+}
+
+.footer {
+  position: relative;
+  margin-top: 0 - $height-footer; /* negative value of footer height */
+  height: $height-footer;
+  clear: both;
+}
+
+/*Opera Fix*/
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
